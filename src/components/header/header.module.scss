@@ -1,0 +1,29 @@
+@import '../../utilities/utilities.modules.scss';
+
+.root {
+  background: $primary-200;
+}
+
+.nav-links {
+  color: $secondary-100;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-inline: 1rem;
+  align-self: center;
+  border-right: 1px solid $lines-100;
+  margin-right: 0px;
+}
+
+.nav-bar {
+    border: 1px solid $lines-100;
+    font-family: $fira-code;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.last {
+    border-right: none;
+    border-left: 1px solid $lines-100;
+  margin-left: auto;
+}
