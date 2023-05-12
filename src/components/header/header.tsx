@@ -13,7 +13,7 @@ export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <nav className={classNames(styles['nav-bar'], styles.root)}>
-                <a href="/home" className={styles['nav-links']}>
+                <a href="/home" className={classNames(styles['nav-links'], styles.first)}>
                     mich-stacey
                 </a>
                 <a href="/projects" className={styles['nav-links']}>

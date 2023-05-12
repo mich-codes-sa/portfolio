@@ -15,15 +15,19 @@
 }
 
 .nav-bar {
-    border: 1px solid $lines-100;
-    font-family: $fira-code;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+  border: 1px solid $lines-100;
+  font-family: $fira-code;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.first{
+  padding-right: 4rem;
 }
 
 .last {
-    border-right: none;
-    border-left: 1px solid $lines-100;
+  border-right: none;
+  border-left: 1px solid $lines-100;
   margin-left: auto;
 }
