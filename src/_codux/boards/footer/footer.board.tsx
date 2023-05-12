@@ -1,9 +1,9 @@
 import { createBoard } from '@wixc3/react-board';
-import { Header } from '../../../components/header/header';
+import { Footer } from '../../../components/footer/footer';
 
 export default createBoard({
-    name: 'Header',
-    Board: () => <Header />,
+    name: 'Footer',
+    Board: () => <Footer />,
     environmentProps: {
         canvasWidth: 1242,
         canvasHeight: 60,

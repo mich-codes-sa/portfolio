@@ -6,6 +6,7 @@ import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
 import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import styles from './App.module.scss';
 import { Header } from './components/header/header';
+import { Footer } from './components/footer/footer';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ function App() {
         <div className={styles.App}>
             <Header />
             <div>
-                <a href="https://vitejs.dev" target="_blank">
+                {/* <a href="https://vitejs.dev" target="_blank">
                     <ViteLogo
                         height="6em"
                         width="6em"
@@ -29,7 +30,7 @@ function App() {
                         className={classNames(styles.logo, styles.react)}
                         title="React logo"
                     />
-                </a>
+                </a> */}
                 <a href="https://www.typescriptlang.org/" target="_blank">
                     <TypescriptLogo
                         height="6em"
@@ -56,6 +57,7 @@ function App() {
             <p className={styles['read-the-docs']}>
                 Click on the Vite and React logos to learn more
             </p>
+            <Footer />
         </div>
     );
 }
